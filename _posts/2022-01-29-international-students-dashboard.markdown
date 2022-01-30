@@ -5,6 +5,8 @@ date:   2022-01-29 15:23:37 -0800
 categories: dashboard students dash python
 ---
 
+<link rel="stylesheet" href="/assets/css/posts.css">
+
 [![Totals of students by year and which country they traveled to.](/assets/images/2022-01-29-international-students-dashboard/numbers-by-country.png)](https://isl-dev.herokuapp.com/)
 *Image links to dev version of the dashboard loaded with faked data.*
 

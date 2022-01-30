@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Fun with fonts"
+date:   2022-01-30 13:22:00 -0800
+categories: fonts animation
+---
+
+
+<link rel="stylesheet" href="/assets/css/posts.css">
+
+<h1 class="shadowed" data-shadow='misha and chris'>misha and chris</h1>
+
+Misha hand-lettered these glyphs and I converted it into a font with Illustrator and [Font Forge](https://fontforge.org/en-US/). Our first font! Still lots of work to do on cleaning up the glyphs and setting the kerning and glyph-pairs.
+
+I also added the animated shadow based on [this Codepen](https://codepen.io/carpenumidium/pen/hHjEJ).

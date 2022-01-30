@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+<link rel="stylesheet" href="/assets/css/index.css">
