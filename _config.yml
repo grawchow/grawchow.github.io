@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Grawchow
+title: grawchow
 email: cgrocho@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Testing out Jekyll and GitHub Pages.
@@ -29,9 +29,11 @@ github_username:  grawchow
 instagram_username: grawchow
 
 # Build settings
-theme: minima
+#theme: minima
+remote-theme: aviddarnes/alembic@main
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
