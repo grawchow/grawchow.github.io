@@ -3,8 +3,8 @@ layout: post
 title:  "Fun with fonts"
 date:   2022-01-30 13:22:00 -0800
 categories: fonts animation
-jsarr:
-    - basic_snap.js
+js-files:
+    - js/clock.js
 ---
 
 <link rel="stylesheet" href="/assets/css/posts.css">
@@ -17,6 +17,6 @@ I also added the animated shadow based on [this Codepen](https://codepen.io/carp
 
 <img src="/assets/glyphs/curl/c/C.svg" width="300px" />
 
-<svg id="clock" width="100%" height="100%">
+<svg id="clock" width="300px" height="300px">
 
 </svg>
