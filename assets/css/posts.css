@@ -61,6 +61,5 @@ h1.shadowed {
 
 i {
     display: inline-block;
-    width: 300px;
-    height: 300px;
+    vertical-align: top;
 }

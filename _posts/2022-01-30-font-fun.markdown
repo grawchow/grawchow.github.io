@@ -9,6 +9,7 @@ js-files:
     - js/clock.js
     - js/basic_snap.js
     - js/snap-state-c.js
+    - js/snap-state-h.js
 ---
 
 <link rel="stylesheet" href="/assets/css/posts.css">
@@ -27,3 +28,4 @@ I also added the animated shadow based on [this Codepen](https://codepen.io/carp
 
 ### Breathing C using Snap Animation States
 <i class="glyph-c"></i>
+<i class="glyph-h"></i>
