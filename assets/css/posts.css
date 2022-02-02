@@ -57,3 +57,10 @@ h1.shadowed {
   0% {background-position: 0 0}
   0% {background-position: 100% -100%}
   }
+
+
+i {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}

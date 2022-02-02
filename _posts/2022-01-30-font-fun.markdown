@@ -5,8 +5,10 @@ date:   2022-01-30 13:22:00 -0800
 categories: fonts animation
 js-files:
     - js/snap.svg.js
+    - js/snap-animation-states.js
     - js/clock.js
     - js/basic_snap.js
+    - js/snap-state-c.js
 ---
 
 <link rel="stylesheet" href="/assets/css/posts.css">
@@ -17,6 +19,11 @@ Misha hand-lettered these glyphs and I converted it into a font with Illustrator
 
 I also added the animated shadow based on [this Codepen](https://codepen.io/carpenumidium/pen/hHjEJ).
 
+### Breathing C using SLIM
 <img src="/assets/glyphs/curl/c/C.svg" width="300px" />
 
+### Breathing C using snap.svg
 <svg id="basic_snap" width="300px" height="300px"></svg>
+
+### Breathing C using Snap Animation States
+<i class="glyph-c"></i>
