@@ -29,5 +29,3 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Boostrap
-# gem 'bootstrap', '~> 5.1.3'
-

@@ -9,7 +9,7 @@ js-files:
     - js/jquery.js
     - js/snap.svg.js
     - js/snap-animation-states.js
-    - js/snap-state-a-to-b.js
+    - js/morph-existing-to-new-svg.js
     - js/home.js
 ---
 
