@@ -29,7 +29,6 @@ function calculatePath (t, offset_t, a, offset_y) {
 
 
 function updatePath ( x0, svgTag, pathTag, offset_t, a, offset_y ) {
-  console.log(svgTag + ' - ' + pathTag + ': ' + x0);
   var new_export_points = calculatePath(x0, offset_t, a, offset_y);
   morphToNew(new_export_points, svgTag, pathTag);
   var x1 = x0 + 0.1;
