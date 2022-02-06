@@ -10,6 +10,7 @@ js-files:
     - js/snap.svg.js
     - js/snap-animation-states.js
     - js/morph-existing-to-new-svg.js
+    - js/dynamic-text-size.js
     - js/home.js
 ---
 

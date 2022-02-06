@@ -14,6 +14,29 @@
 }
 
 /**
+ * Home page
+ */
+.home-title {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  font-family: 'Curl', sans-serif;
+  font-size: 8em;
+  z-index: -2;
+};
+
+h1.dfs {
+  margin-left:2em;
+  font-size: 8em;
+}
+
+#wave-svg {
+  overflow: visible;
+  z-index: -1
+}
+
+
+/**
  * Site header
  */
 .site-header {
@@ -124,6 +147,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background-color: white;
 }
 
 .footer-heading {

@@ -66,3 +66,20 @@ second = second.substring(second.length-1)/10;
 
 createWave('#wave-svg', '#final-path-3', second, 0.6, 10, 16);
 createWave('#wave-svg', '#final-path-4', second, 1.2, 11, 20);
+
+createTitle();
+
+function createTitle () {
+  var wavesElement = $("#wave-svg").first();
+  var wavesElementBottom = parseInt(wavesElement.css("height")) - wavesElement.position().top;
+  var homeTitle = $(".home-title").first();
+  homeTitle.css("top",wavesElement.position().top + parseInt(wavesElement.css("height"))*0.25);
+};
+
+// Update dynamic font sizes
+// run on window resize (w/ debounce)
+var _timer;
+$(window).on('resize', function(){
+  clearTimeout(_timer);
+  timer = setTimeout(createTitle,100);
+});
