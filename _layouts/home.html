@@ -13,8 +13,7 @@
     <div class="wrapper">
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
-      <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
-  
+
       {%- if page_paths -%}
         <nav class="site-nav">
           <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -73,14 +72,10 @@
   </svg>
 </div>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col dfs">
-      <h1 class="home-title">
-        grachow
-      </h1>
-  </div>
-</div>
+<div class="dfs">
+  <h1 class="home-title">
+    grachow
+  </h1>
 </div>
 
 
