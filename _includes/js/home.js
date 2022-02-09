@@ -34,18 +34,18 @@ function updatePath ( x0, svgTag, pathTag, offset_t, a, offset_y ) {
 function pathLoop( path, x0, i, svgTag, pathTag, offset_t, a, offset_y ) { 
   setTimeout(function() {   
     var oldPath = path;
-    var updatedPath = updatePath(x0, svgTag, pathTag, offset_t, a, offset_y);
-    // textWave(svgTag, textTag, 10, offset_t, offset_y);             
+    var updatedPath = updatePath(x0, svgTag, pathTag, offset_t, a, offset_y);       
     oldPath = updatedPath[0];
     var x1 = updatedPath[1];
     var offset_x = -20;
     textWave('#wave-svg', "#svg-title-g", x0, 30 + offset_x, 1.1, 5, 32, 0);
     textWave('#wave-svg', "#svg-title-r", x0, 33 + offset_x, 1.1, 5, 32, 0);
     textWave('#wave-svg', "#svg-title-a", x0, 36.5 + offset_x, 1.1, 5, 32, 0);
-    textWave('#wave-svg', "#svg-title-c", x0, 41.5 + offset_x, 1.1, 5, 32, 0);
-    textWave('#wave-svg', "#svg-title-h", x0, 45 + offset_x, 1.1, 5, 32, 0);
-    textWave('#wave-svg', "#svg-title-o", x0, 49.3 + offset_x, 1.1, 5, 32, 0);
-    textWave('#wave-svg', "#svg-title-w", x0, 52 + offset_x, 1.1, 5, 32, 0);
+    textWave('#wave-svg', "#svg-title-w", x0, 40.7 + offset_x, 1.1, 5, 32, 0);
+    textWave('#wave-svg', "#svg-title-c", x0, 46.2 + offset_x, 1.1, 5, 32, 0);
+    textWave('#wave-svg', "#svg-title-h", x0, 49.2 + offset_x, 1.1, 5, 32, 0);
+    textWave('#wave-svg', "#svg-title-o", x0, 53 + offset_x, 1.1, 5, 32, 0);
+    textWave('#wave-svg', "#svg-title-w2", x0, 55.7 + offset_x, 1.1, 5, 32, 0);
     i++;                    
     if (i > 0) {           
       pathLoop(path, x1, i, svgTag, pathTag, offset_t, a, offset_y);           
@@ -53,17 +53,6 @@ function pathLoop( path, x0, i, svgTag, pathTag, offset_t, a, offset_y ) {
   }, 100)
   return i;
 };
-
-// function textLoop( svgTag, pathTag, x, offset_x, offset_y ) {
-//   setTimeout(function() {   
-//     textWave(svgTag, textTag, x, offset_x, offset_y);
-//     i++;                    
-//     if (i > 0) {           
-//       textLoop( svgTag, pathTag, x, offset_x, offset_y );        
-//     }                   
-//   }, 100)
-//   return i;
-// };
 
 function textWave (svgTag, textTag, t, x, offset_t, a, offset_y, offset_x) {
   var y = a * Math.sin(Math.sin(t/6)*Math.sin(t/6)*x*0.06 + offset_t*t) + offset_y;
