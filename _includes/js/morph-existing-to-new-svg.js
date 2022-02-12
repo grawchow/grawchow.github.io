@@ -5,8 +5,8 @@ function morphToNew( pathB, svgTag, pathTag ) {
         {
             d: pathB
         },
-        200,
-        mina.easeinout
+        600,
+        mina.linear
     );
 };
 
@@ -20,7 +20,7 @@ function morphToNewPosition( x, y, svgTag, textTag ) {
             x: x,
             y: y
         },
-        100,
-        mina.easeinout
+        600,
+        mina.linear
     );
 };
