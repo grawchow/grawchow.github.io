@@ -9,7 +9,7 @@ function createWave ( svgTag, pathTag, t0, offset_t, a, offset_y ) {
 function calculatePath (t, offset_t, a, offset_y) {
   var seconds = [...Array(100).keys()].map(x => x * 20);
   var my_points = '';
-  var i = 1;
+  var i = 0;
   for (const s of seconds) {
     var raw_s = a * Math.sin(Math.sin(t/6)*Math.sin(t/6)*s*0.06 + offset_t*t) + offset_y
     my_points = my_points + i + ',' + raw_s + ' '
